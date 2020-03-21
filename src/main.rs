@@ -18,7 +18,7 @@ pub fn bubble_sort(arr: &mut [i32]) {
 }
 
 pub fn bubble_sort_optimized(arr: &mut [i32]) {
-    let mut new_len: usize,
+    let mut new_len: usize;
     let mut len = arr.len();
     loop {
         new_len = 0;
