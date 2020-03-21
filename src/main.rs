@@ -2,6 +2,8 @@ fn main() {
     let mut numbers = vec![0, 6, 1, 4, 5, 7, 3, 5, 3, 9];
     println!("Current vec is -> {:?}", numbers);
 
+    numbers = bubble_sort(&mut numbers);
+    println!("After unopitimized bubble sort -> {:?}", numbers);
 }
 
 pub fn bubble_sort(arr: &mut [i32]) {
